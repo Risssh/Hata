@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pl-PL" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Automatyczny dom</title>
+    <link rel="stylesheet" href="style.css">
+	<script src="login.js"></script>
+  </head>
+  <body>
+    <div class="center">
+      <h1>Zaloguj się</h1>
+      <form class="login"  action="index.html"  method="post">
+        <div class="txt_field">
+          <input type="text"  id="username" required >
+          <span></span>
+          <label>Nazwa użytkownika</label>
+        </div>
+        <div class="txt_field">
+          <input type="password" id="password" required>
+          <span></span>
+          <label>Hasło</label>
+        </div>
+        <input type="submit" value="Zaloguj się" onclick="validate()">
+        </div>
+      </form>
+    </div>
+
+  </body>
+</html>
